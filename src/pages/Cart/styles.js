@@ -61,6 +61,7 @@ export const ProductTable = styled.table`
 
   div {
     display: flex;
+    align-items: center;
 
     input {
       border: 1px solid #ddd;
@@ -69,12 +70,12 @@ export const ProductTable = styled.table`
       padding: 6px;
       width: 50px;
     }
+  }
 
-    button {
-      background: none;
-      border: 0;
-      padding: 6px;
-    }
+  button {
+    background: none;
+    border: 0;
+    padding: 6px;
   }
 `;
 
